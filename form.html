@@ -1,0 +1,110 @@
+<!Doctype>
+<html>
+<head>
+<title>Complete Your Profile</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<style>
+ 
+
+  form{
+    display:flex;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    
+
+  }
+  form > section:first-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    justify-content: center;
+    width: 60%;
+    
+  }
+  form > section:first-child>div{
+   
+    width: 60%;
+  }
+  input{
+    /* padding: 1.2em !important; */
+
+  }
+  form>section:last-child{
+    display: flex;
+    width: 40%;
+    
+    padding-top:  3em;
+    justify-content: center;
+  }
+  form>section:last-child>div{
+    width: 38%;
+    height: 186px;
+    background-color: aquamarine; 
+  }
+  @media only screen and (max-width: 600px) {
+   
+  form > .two{
+    display: none;
+  }
+}
+</style>
+</head>
+<body>
+  <!-- <div class="simple-form">
+    <form id="registration">
+      <input type=" text" name="fname" id="button" placeholder="Enter Your first name"><br><br>
+      <input type=" text" name="fname" id="button" placeholder="Enter Your last name"><br><br>
+      <input type=" text" name="fname" id="button" placeholder="Enter Your Email address"><br><br>
+      <input type=" text" name="fname" id="button" placeholder="Enter Your Password"><br><br>
+      <input type=" text" name="fname" id="button" placeholder="Enter Your Picture"><br><br>
+      <input type=" text" name="fname" id="button" placeholder="Enter Your Voice sample"><br><br>
+      <input type=" text" name="fname" id="button" placeholder="Enter Your first name"><br><br>
+      <input type="submit" value="register" id="butn">
+    </form>
+   </div> -->
+   <form>
+      <section>
+          <div class="form-group">
+              <label for="formGroupExampleInput"></label>
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter first name">
+            </div>
+            <div class="form-group">
+              <label for="formGroupExampleInput2"></label>
+              <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter last name">
+            </div>
+            <div class="form-group">
+                <label for="formGroupExampleInput2"></label>
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="enter email address">
+              </div>
+              <div class="form-group">
+                  <label for="formGroupExampleInput2"></label>
+                  <input type="password" class="form-control" id="formGroupExampleInput2" placeholder="enter passsword">
+                </div>
+               
+                  <div class="form-group">
+                      <label for="exampleFormControlFile1">Select picture</label>
+                      <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlFile1">Select Voice sample</label>
+                        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                      </div>
+                      <!-- <div class="form-group">
+                          <label for="formGroupExampleInput2"></label>
+                          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+                        </div>      -->
+      </section>   
+      <section class="two">
+        <div></div>
+      </section> 
+  </form>
+   </body>
+   </html>
+
+

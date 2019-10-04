@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<style>
+    body{
+        font-family: 'Roboto Slab', serif;
+        background-color: #00ADB5;
+        color: #FFF4E0;
+    }
+     form{
+    padding-top: 4em; 
+
+    padding-bottom: 1em !important;
+    display:flex;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    
+
+  }
+  form > section:first-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    justify-content: center;
+    width: 60%;
+    
+  }
+  form > section:first-child>div{
+   
+    width: 60%;
+  }
+  input{
+    /* padding: 1.2em !important; */
+
+  }
+  form>section:last-child{
+    display: flex;
+    width: 40%;
+    
+    padding-top:  1em;
+  
+    justify-content: center;
+ 
+  }
+  form>section:last-child>div{
+    width: 38%;
+    height: 186px;
+   
+    font-size: 10em;
+  }
+  button{
+      width: 63% !important;
+      background-color:#393E46 !important;
+      color: #FFF4E0 !important;
+  }
+  @media only screen and (max-width: 600px) {
+   
+  form{
+      display: flex;
+      flex-direction: column-reverse;
+      width: 100%;
+      padding-top: 0px !important;
+  }
+  form > section:first-child{
+      width: 100%;
+  }
+  form>section:last-child{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  form>section:last-child>div{
+    font-size: 8em;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start !important;
+  }
+  form > section:first-child>div{
+   
+   width: 90%;
+ }
+}
+</style>
+</head>
+<body>
+        <form>
+                <section>
+                    <nav><h3>comelete your profile</h3></nav>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput"></label>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter first name">
+                      </div>
+                      <div class="form-group">
+                        <label for="formGroupExampleInput2"></label>
+                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter last name">
+                      </div>
+                      <div class="form-group">
+                          <label for="formGroupExampleInput2"></label>
+                          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="enter email address">
+                        </div>
+                        <div class="form-group">
+                            <label for="formGroupExampleInput2"></label>
+                            <input type="password" class="form-control" id="formGroupExampleInput2" placeholder="enter passsword">
+                          </div>
+                         
+                            <div class="form-group">
+                                <label for="exampleFormControlFile1">Select picture</label>
+                                <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                              </div>
+                              <div class="form-group">
+                                  <label for="exampleFormControlFile1">Select Voice sample</label>
+                                  <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                </div>
+                                <button type="button" class="btn btn-primary btn-lg btn-block"> Submit Form</button>
+                                <!-- <div class="form-group">
+                                    <label for="formGroupExampleInput2"></label>
+                                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+                                  </div>      -->
+                </section>   
+                <section class="two">
+                  <div><i class="fas fa-user-circle"></i></div>
+                </section> 
+               
+            </form> 
+</body>
+</html>
